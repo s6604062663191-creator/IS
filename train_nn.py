@@ -50,6 +50,6 @@ model.fit(
     batch_size=64
 )
 
-model.save("nn_model.keras")
+model.save("nn_model.h5")
 
 print("✅ NN model saved")

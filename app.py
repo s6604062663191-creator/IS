@@ -16,7 +16,7 @@ df = pd.merge(ratings, movies, on="movie")
 
 # LOAD MODEL
 ml_model = joblib.load("ml_model.pkl")
-nn_model = tf.keras.models.load_model("nn_model.keras", compile=False)
+nn_model = tf.keras.models.load_model("nn_model.h5")
 
 # GENRE
 genre_names = [
